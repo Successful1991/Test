@@ -1,0 +1,25 @@
+.pleasure{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 30px 40px;
+  border-radius: 15px;
+  background: #ffffff url("../img/girl_bg.png")no-repeat right;
+  background-size: cover;
+  h2{
+    font-family: "PT_sans-Narrow";
+    font-size: 48px;
+    font-weight: bold;
+    width: 61%;
+    margin: 0 0 20px;
+    line-height: 1em;
+    text-transform: uppercase;
+    span{
+      color: #fc481a;
+    }
+  }
+  p{
+    font-family:"PT_sans";
+    font-size: 17px;
+    width: 61%;
+  }
+}

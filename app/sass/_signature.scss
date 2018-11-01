@@ -1,0 +1,48 @@
+.opinion{
+  display: flex;
+  max-width: 980px;
+  background: #ffffff url("../img/footer_bg.png") no-repeat right;
+  margin: 0 auto 10px;
+  border-radius: 10px;
+  section{
+    width: 65%;
+    padding: 30px 0 10px 40px;
+    h2{
+      margin: 0 0 30px 0;
+      font-family: "PT_sans-Narrow";
+      font-size: 48px;
+      line-height: 1em;
+      font-weight: bold;
+      text-transform: uppercase;
+      span{
+        color: #fc481a;
+      }
+    }
+    p{
+      margin-bottom: 15px;
+      font-family: "PT_sans";
+      &:last-child{
+        margin: 0;
+      }
+    }
+
+
+  }
+  &__signature{
+    display: flex;
+    align-items: center;
+    font-family: "PT_sans";
+    font-style: italic;
+    font-weight: bold;
+    img{
+      margin-left:50px;
+    }
+  }
+  &__doctor{
+    display: inline-block;
+    // height: 100%;
+    width: 40%;
+    background: url("../img/Layer 29.png") no-repeat center;
+  }
+
+}
